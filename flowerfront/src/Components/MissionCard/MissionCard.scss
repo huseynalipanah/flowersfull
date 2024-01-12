@@ -1,0 +1,36 @@
+.mission-card {
+  width: 50%;
+  background-color: #1b745e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 70px;
+  .mission-card-text {
+    max-width: 304px;
+    margin: 30px 0 30px 30px;
+    h2 {
+      font-size: 46px;
+      line-height: 50.6px;
+      font-weight: 400;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 15px;
+    }
+    button {
+      font-size: 16px;
+      line-height: 24px;
+      border: none;
+      width: 160px;
+      height: 46px;
+      background-color: #d8e3d5;
+      color: #10634e;
+      font-weight: lighter;
+      cursor: pointer;
+    }
+  }
+}
